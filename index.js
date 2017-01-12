@@ -2,7 +2,7 @@
 
 function config(container) {
   const implementation = process.env.LAB_CONFIG || 'memory';
-  return container.getImplementation('lab-config', implementation);
+  return container.getImplementation(config.serviceName, implementation);
 }
 
 config.type = 'factory';
