@@ -1,6 +1,6 @@
 {
   "name": "lab-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Configuration service for the lab-di.",
   "main": "index.js",
   "scripts": {
@@ -37,7 +37,9 @@
   ],
   "author": "ifroz",
   "contributors": [
-    {"name": "Ádám Gólya"}
+    {
+      "name": "Ádám Gólya"
+    }
   ],
   "license": "ISC",
   "bugs": {
